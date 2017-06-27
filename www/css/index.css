@@ -1,0 +1,46 @@
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+  background-color: #E4E4E4;
+  font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.todos {
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.todos div {
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+}
+.todos div button {
+    float: right;
+}
+button {
+  margin-left: 4%;
+}
+
+.new-todo {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    width: 70%;
+}
+
+.add {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 25%;
+}
